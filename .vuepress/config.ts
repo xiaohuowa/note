@@ -3,6 +3,7 @@ import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
+  base: "/note/",
   title: "vuepress-theme-reco",
   description: "Just playing around",
   theme: recoTheme({
