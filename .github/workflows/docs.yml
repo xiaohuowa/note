@@ -3,7 +3,7 @@ name: docs
 on:
   # 每当 push 到 main 分支时触发部署
   push:
-    branches: [master]
+    branches: [ master ]
   # 手动触发部署
   workflow_dispatch:
 
@@ -17,14 +17,14 @@ jobs:
           # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
           fetch-depth: 0
 
-      # - name: Setup pnpm
-      #   uses: pnpm/action-setup@v2.2.2
-      #   with:
-      #     # 选择要使用的 pnpm 版本
-      #     # version: 8
-      #     version: 7.17.0
-      #     # 使用 pnpm 安装依赖
-      #     # run_install: true
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.2.2
+        with:
+          # 选择要使用的 pnpm 版本
+          # version: 8
+          version: 7.17.0
+          # 使用 pnpm 安装依赖
+          run_install: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -32,9 +32,9 @@ jobs:
           # 选择要使用的 node 版本
           node-version: 18
           # 缓存 pnpm 依赖
-          # cache: pnpm
+          cache: pnpm
 
-      - run: npm i
+#      - run: npm i
 
       # 运行构建脚本
       - name: Build VuePress site
