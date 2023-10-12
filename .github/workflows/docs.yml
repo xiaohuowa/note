@@ -21,8 +21,8 @@ jobs:
         uses: pnpm/action-setup@v2.2.2
         with:
           # 选择要使用的 pnpm 版本
-          # version: 8
-          version: 7.17.0
+          version: 8
+          # version: 7.17.0
           # 使用 pnpm 安装依赖
           run_install: true
 
@@ -34,7 +34,7 @@ jobs:
           # 缓存 pnpm 依赖
           cache: pnpm
 
-#      - run: npm i
+      #      - run: npm i
 
       # 运行构建脚本
       - name: Build VuePress site
