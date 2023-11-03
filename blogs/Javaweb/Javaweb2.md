@@ -1638,9 +1638,9 @@ servletPath=/b    （在web.xml里面配的url-pattern的内容）
 
 - 在Servlet类上使用：`@WebServlet`，WebServlet注解中有哪些属性呢？
 
-  - `name属性`：用来指定Servlet的名字。等同于：<servlet-name>
-  - `urlPatterns属性`：用来指定Servlet的映射路径。可以指定多个字符串。<url-pattern>
-  - `loadOnStartUp属性`：用来指定在服务器启动阶段是否加载该Servlet。等同于：<load-on-startup>
+  - `name属性`：用来指定Servlet的名字。等同于：`<servlet-name>`
+  - `urlPatterns属性`：用来指定Servlet的映射路径。可以指定多个字符串。`<url-pattern>`
+  - `loadOnStartUp属性`：用来指定在服务器启动阶段是否加载该Servlet。等同于：`<load-on-startup>`
   - `value属性`：当注解的属性名是value的时候，使用注解的时候，value属性名是可以省略的。
 
 > 注意：

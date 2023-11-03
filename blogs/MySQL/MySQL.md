@@ -2279,7 +2279,7 @@ ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'admin';
 
 ## 事务的传播行为
 
-![事务传播行为](C:/Users/11788/Desktop/事务传播行为.png)
+[//]: # (![事务传播行为]&#40;C:/Users/11788/Desktop/事务传播行为.png&#41;)
 
 ## 事务并发的三大问题:
 

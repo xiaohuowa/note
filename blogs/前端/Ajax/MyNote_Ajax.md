@@ -14,7 +14,8 @@
 - 传统请求存在的问题
   - 页面全部刷新导致了用户的体验较差。
   - 传统的请求导致用户的体验有空白期。（用户的体验是不连贯的）
-  - ![AJAX同步请求](C:\Users\niannian\Desktop\AJAX\笔记\AJAX同步请求.png)
+
+[//]: # (  - ![AJAX同步请求]&#40;C:\Users\niannian\Desktop\AJAX\笔记\AJAX同步请求.png&#41;)
 
 ## AJAX概述
 

@@ -405,7 +405,7 @@ spring:
 
 ##### 执行流程图
 
-![image-20230306092922679](D:\BaiduSyncdisk\学习笔记\SpringCloud学习总结.assets\image-20230306092922679.png)
+[//]: # (![image-20230306092922679]&#40;D:\BaiduSyncdisk\学习笔记\SpringCloud学习总结.assets\image-20230306092922679.png&#41;)
 
 ##### 执行流程简述
 

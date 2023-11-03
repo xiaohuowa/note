@@ -94,9 +94,9 @@ for(String name:names){
 - 简单数据类型用`value`
 - 引用数据类型用`ref`
   - 如果在配置bean的时候给出`autowire="byName"`，就相当于注解的`@Autowired + @Qualifier("名称")`：==[使用名称注入值](# **注解依赖注入**)==，就可以用xml方式自动注入了
-    - `autowire="byName"`： java类中引用类型的属性名和spring容器中（配置文件）<bean>的id名称一样，且数据类型是一致的，这样的容器中的bean，spring能够赋值给引用类型。
+    - `autowire="byName"`： java类中引用类型的属性名和spring容器中（配置文件）`<bean>`的id名称一样，且数据类型是一致的，这样的容器中的bean，spring能够赋值给引用类型。
   - 如果在配置bean的时候给出`autowire="byType"`，就相当于注解的`@Autowired`：==[使用类型注入值](# **注解依赖注入**)==
-    - `autowire="byType"`：java类中引用类型的数据类型和spring容器中（配置文件）<bean>的class属性是同源关系的，这样的bean能够赋值给引用类型
+    - `autowire="byType"`：java类中引用类型的数据类型和spring容器中（配置文件）`<bean>`的class属性是同源关系的，这样的bean能够赋值给引用类型
 
 ~~~xml
 <!--创建学校对象-->
@@ -1215,7 +1215,7 @@ hibernate访问数据库----spring创建的是`HibernateTransactionManager`
 
 需要告诉spring 用的是哪种数据库的访问技术，怎么告诉spring呢？
 
-声明数据库访问技术对于的事务管理器实现类， 在spring的配置文件中使用<bean>声明就可以了
+声明数据库访问技术对于的事务管理器实现类， 在spring的配置文件中使用`<bean>`声明就可以了
 
 例如，要使用mybatis访问数据库，应该在xml配置文件中
 

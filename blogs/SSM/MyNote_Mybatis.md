@@ -456,7 +456,7 @@ public void testReturnMapMul(){
 
 #### `<where>`
 
-用来包含 多个<if>的， 当多个if有一个成立的， <where>会**自动增加一个where**关键字，并**去掉 if中多余的 and ，or**等。
+用来包含 多个`<if>`的， 当多个if有一个成立的， `<where>`会**自动增加一个where**关键字，并**去掉 if中多余的 and ，or**等。
 
 
 
@@ -497,7 +497,7 @@ public void testReturnMapMul(){
 
 #### `<foreach>`
 
-<foreach> 循环java中的数组，list集合的。 主要用在sql的in语句中。
+`<foreach>` 循`环java中的数`组，list集合的。 主要用在sql的in语句中。
 
 ~~~java
 <foreach collection="" item="" open="" close="" separator="">
@@ -735,7 +735,7 @@ private void mapperElement(XNode parent) throws Exception {
 >
 > 多对多配置：`<resultMap> + <collection>`
 >
-> ***\*无论是什么关联关系，如果某方持有另一方的集合，则使用<collection>标签完成映射，如果某方持有另一方的对象，则使用<association>标签完成映射。\****
+> ***\*无论是什么关联关系，如果某方持有另一方的集合，则使用`<collection>`标签完成映射，如果某方持有另一方的对象，则使用`<association>`标签完成映射。\****
 
 #### 一对一
 
