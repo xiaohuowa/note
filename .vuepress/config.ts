@@ -7,7 +7,7 @@ import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
-  // base: "/note/",
+  base: "/note/",
   title: "小火娃的笔记中心",
   description: "个人笔记收纳",
   theme: recoTheme({
